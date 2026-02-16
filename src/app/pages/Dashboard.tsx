@@ -22,7 +22,7 @@ import { Avatar, AvatarFallback, AvatarImage } from "@/app/components/ui/avatar"
 
 /* ================= CONFIG ================= */
 
-const BASE_URL = "https://img2xl-backend-3-production.up.railway.app/";
+const BASE_URL = "https://img2xl-backend-3-production.up.railway.app";
 const API_KEY = "GYNEX_OCR_123";
 
 /* ================= COMPONENT ================= */
