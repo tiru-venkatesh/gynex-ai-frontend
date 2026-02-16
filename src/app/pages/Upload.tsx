@@ -21,8 +21,8 @@ import {
 
 /* ================= CONFIG ================= */
 
-const OCR_URL = "http://localhost:8080/extract-text";
-const CHAT_URL = "http://localhost:8080/analyze";
+const OCR_URL = "https://img2xl-backend-3-production.up.railway.app/extract-text";
+const CHAT_URL = "https://img2xl-backend-3-production.up.railway.app/analyze";
 const API_KEY = "GYNEX_OCR_123";
 
 /* ================= COMPONENT ================= */
