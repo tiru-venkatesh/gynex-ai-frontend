@@ -22,7 +22,7 @@ import { Avatar, AvatarFallback, AvatarImage } from "@/app/components/ui/avatar"
 
 /* ================= CONFIG ================= */
 
-const BASE_URL = "http://localhost:8080";
+const BASE_URL = "https://img2xl-backend-3-production.up.railway.app/";
 const API_KEY = "GYNEX_OCR_123";
 
 /* ================= COMPONENT ================= */
@@ -178,7 +178,7 @@ export function Dashboard() {
           </Button>
 
           <Avatar>
-            <AvatarImage src={user?.photoURL || "https://i.pravatar.cc/100"} />
+            <AvatarImage src={user?.photoURL || "https://wallpapercave.com/wp/wp14604466.jpg"} />
             <AvatarFallback>U</AvatarFallback>
           </Avatar>
         </div>
